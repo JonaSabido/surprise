@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="h-100 d-flex align-items-center all-height">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex d-md-block justify-content-center">
+                        <div class="container-image" id="first-image"></div>
+                        <div class="container-image" id="second-image"></div>
+                        <div class="container-image" id="third-image"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <h1 class="title">¿Quieres ser mi <br> San Valentín? ❤</h1>
+                    <div class="d-flex" id="container-buttons">
+                        <a class="button confirm-button me-2" id="confirmButton">Sí, acepto 🌹 </a>
+                        <a class="button cancel-button" id="cancelButton">No quiero 💔</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close text-center mb-2" id="closeModal">&times;</span>
+            <p class="text-white text-letter">Estimada Dama, me dirigo a usted con la más grata intención de invitarla a
+                una velada especial, con el motivo de unir nuestras almas una noche más.
+                Será para mi de suma importancia que usted se ponga lo más hermosa posible, para poder presenciar con
+                mis ojos su belleza. Sin más que agregar le agradezco por su interés y espero su confirmación con una
+                foto suya mandandome
+                un beso al número de WatsApp que usted ya conoce. A continuación le dejo los detalles de la cita:
+            </p>
+            <div class="d-flex align-items-center">
+                <p class="fw-bold modal-subititle me-3">🗓️ Fecha: </p>
+                <p class="modal-text">14 Febrero 2025 </p>
+            </div>
+            <div class="d-flex align-items-center">
+                <p class="fw-bold modal-subititle me-3">🕑 Hora: </p>
+                <p class="modal-text">7:00 PM </p>
+            </div>
+            <div class="d-flex align-items-center">
+                <p class="fw-bold modal-subititle me-3">📍 Lugar: </p>
+                <p class="modal-text">Sorpresa </p>
+            </div>
+            <div class="d-flex align-items-center">
+                <p class="fw-bold modal-subititle me-3">👗 Dress Code: </p>
+                <p class="modal-text">Vestido </p>
+            </div>
+            <div class="d-flex align-items-center">
+                <p class="fw-bold modal-subititle me-3">🗒️ Condiciones: </p>
+                <p class="modal-text">Ponerte mucho labial rojo </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="cancelModal">
+        <div class="modal-content">
+            <span class="close text-center mb-2" id="closeCancelModal">&times;</span>
+            <p class="text-center">💔</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/c3ds4gMuEeY?autoplay=1&rel=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+</body>
+
+</html>
